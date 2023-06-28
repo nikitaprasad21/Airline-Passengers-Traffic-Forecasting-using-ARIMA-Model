@@ -16,7 +16,7 @@ ARIMA models use differencing to convert a non-stationary time series into a sta
 
 ### Work Process
 
-I have meticulously performed dataset cleaning and preprocessing using Python, followed by a comprehensive time series analysis utilizing the ARIMA Model. By leveraging this statistical approach, which relies on the autoregressive nature of the data, accurate predictions of future values based on historical data have been achieved.
+I have meticulously performed dataset cleaning and preprocessing using Python, then successfully developed a robust pipeline to test the stationarity of data. Two methods were employed to confirm non-stationarity of data. Firstly, the Rolling Statistics technique was utilized to observe variations in moving averages or standard deviations over time. Secondly, the Augmented Dickey-Fuller test (ADCF) provided crucial values for identifying stationarity. To achieve stationarity, data transformations such as log scale, exponential decay, and time shift were applied. Finally, models were built using the ARIMA model to provide accurate predictions. By leveraging this statistical approach, which relies on the autoregressive nature of the data, accurate predictions of future values based on historical data have been achieved.
 
 ### Tools Used
 Python - Model Building 
